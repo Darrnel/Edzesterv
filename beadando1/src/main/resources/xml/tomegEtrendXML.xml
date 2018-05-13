@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<étrendek>
+    <étrend>
+        <reggeli>Zabkása</reggeli>
+        <tízórai>Csirkemell filé rizzsel</tízórai>
+        <ebéd>Grillezett csirkemell görögsalátával</ebéd>
+        <uzsonna>Csirkemell filé zöldséges körettel</uzsonna>
+        <vacsora>Műzli joghurttal</vacsora>
+    </étrend>
+    <étrend>
+        <reggeli>Műzli joghurttal</reggeli>
+        <tízórai>Borjúszelet sültkrumplival</tízórai>
+        <ebéd>Csirkemell rizzsel</ebéd>
+        <uzsonna>Spagetti kevés sajttal</uzsonna>
+        <vacsora>Sovány tehéntúró gyümölccsel</vacsora>
+    </étrend>
+    <étrend>
+        <reggeli>Zabpehely tejjel</reggeli>
+        <tízórai>Csirkemell filé görögsalátával</tízórai>
+        <ebéd>Tonhal rizzsel és brokkolival</ebéd>
+        <uzsonna>Banánturmix</uzsonna>
+        <vacsora>Teljes kiörlésű rozskenyér sajttal</vacsora>
+    </étrend>
+    <étrend>
+        <reggeli>Műzli joghurttal vagy tejjel</reggeli>
+        <tízórai>Tehéntúró sok gyümölccsel</tízórai>
+        <ebéd>Pulykamell rizzsel és kukoricával</ebéd>
+        <uzsonna>Vegyes gyümölcs turmix</uzsonna>
+        <vacsora>Zabkása</vacsora>
+    </étrend>
+</étrendek>
+

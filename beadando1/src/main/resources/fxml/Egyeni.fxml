@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minWidth="-Infinity" prefHeight="602.0" prefWidth="1203.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EgyeniController">
+    <stylesheets>
+        <URL value="@/styles/sablon.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="VisszaButton" layoutX="1130.0" layoutY="553.0" mnemonicParsing="false" onAction="#handleVisszaButtonAction" text="Vissza" />
+      <Label layoutX="15.0" layoutY="124.0" />
+      <Label layoutX="73.0" layoutY="24.0" text="Hétfő" />
+      <Label layoutX="242.0" layoutY="24.0" text="Kedd" />
+      <Label layoutX="394.0" layoutY="24.0" text="Szerda" />
+      <Label layoutX="560.0" layoutY="24.0" text="Csütörtök" />
+      <Label layoutX="744.0" layoutY="24.0" text="Péntek" />
+      <Line endX="1165.0" layoutX="36.0" layoutY="52.0" startX="-110.0" />
+      <Line endX="1165.0" layoutX="37.0" layoutY="109.0" startX="-110.0" />
+      <TextArea fx:id="hetfoGyak" layoutX="16.0" layoutY="125.0" prefHeight="330.0" prefWidth="151.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextArea>
+      <TextArea fx:id="keddGyak" layoutX="184.0" layoutY="126.0" prefHeight="330.0" prefWidth="151.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextArea>
+      <TextArea fx:id="szerdaGyak" layoutX="351.0" layoutY="126.0" prefHeight="330.0" prefWidth="151.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextArea>
+      <TextArea fx:id="csutortokGyak" layoutX="520.0" layoutY="125.0" prefHeight="330.0" prefWidth="151.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextArea>
+      <TextArea fx:id="pentekGyak" layoutX="691.0" layoutY="125.0" prefHeight="330.0" prefWidth="151.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextArea>
+      <Button fx:id="hetfoAddButton" layoutX="61.0" layoutY="463.0" mnemonicParsing="false" onAction="#handleHetfoAddButtonAction" text="Hozzáad" />
+      <Button fx:id="keddAddButton" layoutX="229.0" layoutY="463.0" mnemonicParsing="false" onAction="#handleKeddAddButtonAction" text="Hozzáad" />
+      <Button fx:id="szerdaAddButton" layoutX="381.0" layoutY="463.0" mnemonicParsing="false" onAction="#handleSzerdaAddButtonAction" text="Hozzáad" />
+      <Button fx:id="csutortokAddButton" layoutX="565.0" layoutY="463.0" mnemonicParsing="false" onAction="#handleCsutortokAddButtonAction" text="Hozzáad" />
+      <Button fx:id="pentekAddButton" layoutX="730.0" layoutY="463.0" mnemonicParsing="false" onAction="#handlePentekAddButtonAction" text="Hozzáad" />
+      <Label fx:id="label1" layoutX="16.0" layoutY="510.0" text="Név:" />
+      <Label layoutX="16.0" layoutY="557.0" text="Kalória igény:" />
+      <TextField fx:id="nevTF" editable="false" layoutX="116.0" layoutY="506.0" />
+      <TextField fx:id="kcalTF" editable="false" layoutX="116.0" layoutY="553.0" />
+      <TextField fx:id="hetfoTipusTF" layoutX="35.0" layoutY="68.0" prefHeight="25.0" prefWidth="101.0" promptText="típus" />
+      <TextField fx:id="keddTipusTF" layoutX="204.0" layoutY="68.0" prefHeight="25.0" prefWidth="101.0" promptText="típus" />
+      <TextField fx:id="szerdaTipusTF" layoutX="370.0" layoutY="68.0" prefHeight="25.0" prefWidth="101.0" promptText="típus" />
+      <TextField fx:id="csutortokTipusTF" layoutX="534.0" layoutY="68.0" prefHeight="25.0" prefWidth="101.0" promptText="típus" />
+      <TextField fx:id="pentekTipusTF" layoutX="710.0" layoutY="68.0" prefHeight="25.0" prefWidth="101.0" promptText="típus" />
+      <TextField fx:id="gyakTF" layoutX="347.0" layoutY="527.0" prefHeight="25.0" prefWidth="130.0" promptText="Gyakorlat neve" />
+      <TextField fx:id="sulyTF" layoutX="502.0" layoutY="527.0" prefHeight="25.0" prefWidth="101.0" promptText="Súly (kg)" />
+      <TextField fx:id="sorozatTF" layoutX="621.0" layoutY="527.0" prefHeight="25.0" prefWidth="101.0" promptText="Sorozat" />
+      <TextField fx:id="ismetlesTF" layoutX="742.0" layoutY="527.0" prefHeight="25.0" prefWidth="101.0" promptText="Ismétlés" />
+      <Label layoutX="903.0" layoutY="24.0" text="Szombat" />
+      <Label layoutX="1079.0" layoutY="24.0" text="Vasárnap" />
+      <TextField fx:id="szombatTipusTF" layoutX="876.0" layoutY="68.0" prefHeight="25.0" prefWidth="101.0" promptText="típus" />
+      <TextField fx:id="vasarnapTipusTF" layoutX="1053.0" layoutY="68.0" prefHeight="25.0" prefWidth="101.0" promptText="típus" />
+      <TextArea fx:id="szombatGyak" layoutX="860.0" layoutY="125.0" prefHeight="330.0" prefWidth="151.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vasarnapGyak" layoutX="1028.0" layoutY="125.0" prefHeight="330.0" prefWidth="151.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="szombatAddButton" layoutX="905.0" layoutY="463.0" mnemonicParsing="false" onAction="#handleSzombatAddButtonAction" text="Hozzáad" />
+      <Button fx:id="vasarnapAddButton" layoutX="1073.0" layoutY="463.0" mnemonicParsing="false" onAction="#handleVasarnapAddButtonAction" text="Hozzáad" />
+   </children>
+</AnchorPane>

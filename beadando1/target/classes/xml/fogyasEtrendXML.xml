@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<étrendek>
+    <étrend>
+        <reggeli>Tükörtojás kevés olajon 2 tojásból</reggeli>
+        <tízórai>3 szilva</tízórai>
+        <ebéd>Grillezett csirkemell görögsalátával</ebéd>
+        <uzsonna>4 darab korpás keksz</uzsonna>
+        <vacsora>Puffasztott rizs szeletek zöldségekkel</vacsora>
+    </étrend>
+    <étrend>
+        <reggeli>Zabkása gyümölcsdarabkákkal</reggeli>
+        <tízórai>1 alma</tízórai>
+        <ebéd>Sültkaraj-szelet káposztasalátával</ebéd>
+        <uzsonna>10 szem mandula</uzsonna>
+        <vacsora>2 főtt tojás, 4 szelet puffasztott búza szelet</vacsora>
+    </étrend>
+    <étrend>
+        <reggeli>2 szelet teljes kiőrlésű rozskenyér selyemsonkával</reggeli>
+        <tízórai>2 kajszibarack</tízórai>
+        <ebéd>Kerti saláta olívaolajos tonhallal</ebéd>
+        <uzsonna>3 darab korpás keksz</uzsonna>
+        <vacsora>Sovány tehéntúró vaníliaaromával, mazsolával</vacsora>
+    </étrend>
+    <étrend>
+        <reggeli>Műzli joghurttal vagy tejjel</reggeli>
+        <tízórai>3 szár zeller</tízórai>
+        <ebéd>Roston sült csirkemell filé</ebéd>
+        <uzsonna>1 gyümölcsös joghurt</uzsonna>
+        <vacsora>Görögsaláta, 3 szelet puffasztott rizs szelet</vacsora>
+    </étrend>
+</étrendek>
+

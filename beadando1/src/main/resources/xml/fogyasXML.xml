@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<edzesterv>
+    <nap nap="HETFO">
+        <edzes kcal="500" tipus="kardió">
+            <gyakorlat nev="futás">
+                <suly>0</suly>
+                <sorozat>1</sorozat>
+                <ismetles>1</ismetles>
+            </gyakorlat>
+            <gyakorlat nev="lépcsőzés">
+                <suly>0</suly>
+                <sorozat>1</sorozat>
+                <ismetles>1</ismetles>
+            </gyakorlat>
+            <gyakorlat nev="kocogás">
+                <suly>0</suly>
+                <sorozat>1</sorozat>
+                <ismetles>1</ismetles>
+            </gyakorlat>
+        </edzes>
+    </nap>
+    <nap nap="SZERDA">
+        <edzes kcal="600" tipus="felső test">
+            <gyakorlat nev="fekvenyomás">
+                <suly>10</suly>
+                <sorozat>3</sorozat>
+                <ismetles>10</ismetles>
+            </gyakorlat>
+            <gyakorlat nev="tárogatás">
+                <suly>30</suly>
+                <sorozat>4</sorozat>
+                <ismetles>10</ismetles>
+            </gyakorlat>
+            <gyakorlat nev="bicepsz rúddal">
+                <suly>5</suly>
+                <sorozat>3</sorozat>
+                <ismetles>10</ismetles>
+            </gyakorlat>
+            <gyakorlat nev="tricepsz gépen">
+                <suly>10</suly>
+                <sorozat>2</sorozat>
+                <ismetles>12</ismetles>
+            </gyakorlat>
+            <gyakorlat nev="evezés">
+                <suly>30</suly>
+                <sorozat>3</sorozat>
+                <ismetles>10</ismetles>
+            </gyakorlat>
+        </edzes>
+    </nap>
+    <nap nap="PENTEK">
+        <edzes kcal="300" tipus="láb">
+            <gyakorlat nev="guggolás">
+                <suly>10</suly>
+                <sorozat>3</sorozat>
+                <ismetles>10</ismetles>
+            </gyakorlat>
+            <gyakorlat nev="lábtoló">
+                <suly>40</suly>
+                <sorozat>4</sorozat>
+                <ismetles>10</ismetles>
+            </gyakorlat>
+            <gyakorlat nev="vádli">
+                <suly>10</suly>
+                <sorozat>4</sorozat>
+                <ismetles>10</ismetles>
+            </gyakorlat>
+        </edzes>
+    </nap>
+</edzesterv>

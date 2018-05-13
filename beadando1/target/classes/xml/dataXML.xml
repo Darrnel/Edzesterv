@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+--><felhasznalok>
+    <felhasznalo kcal="2450" nev="Barna Vilmos" ttindex="20">
+        <edzesterv>
+            <nap nev="Hétfő">
+                <edzes tipus="mell">
+                    <gyakorlat nev="fekvenyomás">
+                        <suly>20</suly>
+                        <sorozat>3</sorozat>
+                        <ismetles>10</ismetles>
+                    </gyakorlat>
+                    <gyakorlat nev="tárogatás">
+                        <suly>50</suly>
+                        <sorozat>3</sorozat>
+                        <ismetles>10</ismetles>
+                    </gyakorlat>
+                </edzes>
+            </nap>
+            <nap nev="Kedd">
+                <edzes tipus="láb">
+                    <gyakorlat nev="guggolás">
+                        <suly>30</suly>
+                        <sorozat>4</sorozat>
+                        <ismetles>5</ismetles>
+                    </gyakorlat>
+                    <gyakorlat nev="combfeszítő">
+                        <suly>20</suly>
+                        <sorozat>5</sorozat>
+                        <ismetles>5</ismetles>
+                    </gyakorlat>
+                </edzes>
+            </nap>
+            <nap nev="Szerda">
+                <edzes tipus="kar">
+                    <gyakorlat nev="bicepsz rúddal">
+                        <suly>10</suly>
+                        <sorozat>3</sorozat>
+                        <ismetles>5</ismetles>
+                    </gyakorlat>
+                    <gyakorlat nev="tricepsz egykezes súlyzóval">
+                        <suly>3</suly>
+                        <sorozat>5</sorozat>
+                        <ismetles>5</ismetles>
+                    </gyakorlat>
+                </edzes>
+            </nap>
+            <nap nev="Péntek">
+                <edzes tipus="kardió">
+                    <gyakorlat nev="futás">
+                        <suly>0</suly>
+                        <sorozat>1</sorozat>
+                        <ismetles>1</ismetles>
+                    </gyakorlat>
+                    <gyakorlat nev="lépcsőzés">
+                        <suly>0</suly>
+                        <sorozat>1</sorozat>
+                        <ismetles>1</ismetles>
+                    </gyakorlat>
+                </edzes>
+            </nap>
+            <nap nev="Szombat">
+                <edzes tipus="hát">
+                    <gyakorlat nev="mellhez húzás">
+                        <suly>30</suly>
+                        <sorozat>5</sorozat>
+                        <ismetles>5</ismetles>
+                    </gyakorlat>
+                    <gyakorlat nev="fűtészelés">
+                        <suly>20</suly>
+                        <sorozat>5</sorozat>
+                        <ismetles>5</ismetles>
+                    </gyakorlat>
+                </edzes>
+            </nap>
+        </edzesterv>
+    </felhasznalo>
+</felhasznalok>

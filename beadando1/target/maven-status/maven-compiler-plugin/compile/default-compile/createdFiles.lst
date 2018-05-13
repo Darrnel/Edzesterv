@@ -1,0 +1,16 @@
+Controller\EtrendController.class
+Modell\Felhasznalo.class
+Controller\KezdolapController.class
+Modell\Etrend.class
+Controller\AdatokController.class
+Modell\Edzesterv.class
+Modell\Nap.class
+Modell\Edzes.class
+Modell\Gyakorlat.class
+Modell\Validate.class
+Modell\Kiegeszito.class
+Controller\SablonController.class
+Modell\EdzesDAO.class
+com\mycompany\beadando1\MainApp.class
+Controller\EgyeniController.class
+Controller\KiegeszitokController.class

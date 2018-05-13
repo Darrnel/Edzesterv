@@ -1,0 +1,10 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-image: url("/images/KezdolapBG.jpg");
+    -fx-background-size: cover
+   
+
+}

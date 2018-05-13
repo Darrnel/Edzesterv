@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="563.0" prefWidth="443.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdatokController">
+    <stylesheets>
+        <URL value="@/styles/adatok.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="VisszaButton" layoutX="366.0" layoutY="512.0" mnemonicParsing="false" onAction="#handleVisszaButtonAction" text="Vissza">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label fx:id="label_nev" layoutX="207.0" layoutY="32.0" text="Név" />
+      <Label fx:id="label_testsuly" layoutX="206.0" layoutY="77.0" text="Testsúly" />
+      <Label fx:id="label_magassag" layoutX="204.0" layoutY="124.0" text="Magasság(cm)" />
+      <TextField fx:id="nev_TF" layoutX="25.0" layoutY="27.0" />
+      <TextField fx:id="testsuly_TF" layoutX="25.0" layoutY="72.0" />
+      <TextField fx:id="magassag_TF" layoutX="25.0" layoutY="119.0" />
+      <Button fx:id="SzamolButton" layoutX="27.0" layoutY="166.0" mnemonicParsing="false" onAction="#handleSzamolButtonAction" text="Testtömeg index számítása">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label fx:id="label1" layoutX="26.0" layoutY="213.0" text="Az ön testtömeg indexe:" />
+      <Label layoutX="25.0" layoutY="252.0" text="Ajánlott tevékenység:" />
+      <Button fx:id="EgyeniButton" layoutX="18.0" layoutY="512.0" mnemonicParsing="false" onAction="#handleEgyeniButtonAction" text="Egyéni">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="SablonButton" layoutX="121.0" layoutY="512.0" mnemonicParsing="false" onAction="#handleSablonButtonAction" text="Sablon">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="30.0" layoutY="464.0" text="Válasszon edzéstervet:" />
+      <Button fx:id="etrendButton" layoutX="24.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleEtrendButtonAction" prefHeight="51.0" prefWidth="387.0" text="Ajánlott étrendek megtekintése">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="24.0" layoutY="289.0" text="Ajánlott kcal bevitel/nap:" />
+      <Label fx:id="ttindexLabel" layoutX="223.0" layoutY="213.0" prefHeight="17.0" prefWidth="88.0" />
+      <Label fx:id="kcalLabel" layoutX="223.0" layoutY="289.0" prefHeight="17.0" prefWidth="88.0" />
+      <Label fx:id="ajanlottLabel" layoutX="202.0" layoutY="252.0" prefHeight="17.0" prefWidth="129.0" />
+   </children>
+</AnchorPane>
